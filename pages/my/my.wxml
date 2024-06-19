@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="info-item">
+    <text>姓名：</text>
+    <text>{{ userinfo.name }}</text>
+  </view>
+  <view class="info-item">
+    <text>年龄：</text>
+    <text>{{ userinfo.age }}</text>
+  </view>
+  <view class="info-item">
+    <text>身高：</text>
+    <text>{{ userinfo.height }}</text>
+  </view>
+  <view class="info-item">
+    <text>打卡天数：</text>
+    <text>{{ punchDays }}</text>
+  </view>
+  <view class="info-item">
+    <button type="primary" bind:tap="goClockin">查看打卡记录</button>
+  </view>
+  <button class="modify-btn" bindtap="goToModify">修改信息</button>
+</view>

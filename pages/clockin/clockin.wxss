@@ -1,0 +1,50 @@
+.font30{
+    font-size: 30rpx;
+    margin-top: 140rpx;
+  }
+  
+  .color3{
+    color: #333;
+  }
+  
+  .color6{
+    color: #666;
+  }
+  
+  .timeIcon{
+    color:#666;
+    font-size:18rpx;
+    margin-left: 5rpx;
+  }
+  .container {
+    padding: 20rpx;
+}
+
+.form-group {
+    margin-bottom: 20rpx;
+}
+
+.label {
+    display: inline-block;
+    width: 150rpx;
+}
+
+.input, .textarea {
+    width: 500rpx;
+    height: 100rpx;
+    padding: 10rpx;
+    border: 1rpx solid #ccc;
+    border-radius: 5rpx;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15rpx;
+    border-radius: 5rpx;
+    cursor: pointer;
+}
+
+  

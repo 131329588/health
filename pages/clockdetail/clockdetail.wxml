@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="item">
+    <view class="label">日期:</view>
+    <view class="value">{{ date }}</view>
+  </view>
+  <view class="item">
+    <view class="label">运动状态:</view>
+    <view class="value">{{ exerciseStatus }}</view>
+  </view>
+  <view class="item">
+    <view class="label">心理状态:</view>
+    <view class="value">{{ mentalStatus }}</view>
+  </view>
+  <view class="item">
+    <view class="label">身体状态:</view>
+    <view class="value">{{ physicalStatus }}</view>
+  </view>
+  <view class="item">
+    <view class="label">睡眠时间:</view>
+    <view class="value">{{ sleepTime }}</view>
+  </view>
+  <view class="item">
+    <view class="label">体重:</view>
+    <view class="value">{{ weight }}/kg</view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="container">
+  <view wx:for="{{ dataList }}" wx:key="index" class="item" bindtap="navigateToDetail" data-index="{{ index }}">
+    <view class="date">{{ item.date }}</view>
+    <view class="status">运动状态: {{ item.exerciseStatus }}</view>
+    <view class="status">心理状态: {{ item.mentalStatus }}</view>
+    <view class="status">身体状态: {{ item.physicalStatus }}</view>
+    <view class="status">睡眠时间: {{ item.sleepTime }}</view>
+    <view class="status">体重: {{ item.weight }}kg</view>
+  </view>
+</view>

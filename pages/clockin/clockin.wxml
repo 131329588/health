@@ -1,0 +1,36 @@
+<picker mode="date" header-text="选择时间"  value="{{date}}" bindchange="bindDateChange">
+  <view class="font30">
+    <text class="color3">填报时间：</text>
+    <text class="color6">{{date}}</text>
+    <text class="timeIcon">▼</text>
+  </view>
+</picker>
+<view class="container">
+    <view class="form-group">
+        <text class="label">今日体重（kg）：</text>
+        <input class="input" type="number" value="{{weight}}" placeholder="请输入今日体重" bindinput="inputWeight" />
+    </view>
+
+    <view class="form-group">
+        <text class="label">身体状态：</text>
+        <textarea class="textarea" value="{{physicalStatus}}" placeholder="请输入身体状态" bindinput="inputPhysicalStatus"></textarea>
+    </view>
+
+    <view class="form-group">
+        <text class="label">心理状态：</text>
+        <textarea class="textarea" value="{{mentalStatus}}" placeholder="请输入心理状态" bindinput="inputMentalStatus"></textarea>
+    </view>
+
+    <view class="form-group">
+        <text class="label">睡眠时间：</text>
+        <input class="input" type="text" value="{{sleepTime}}" placeholder="请输入睡眠时间" bindinput="inputSleepTime" />
+    </view>
+
+    <view class="form-group">
+        <text class="label">运动状况：</text>
+        <textarea class="textarea" value="{{exerciseStatus}}" placeholder="请输入运动状况" bindinput="inputExerciseStatus"></textarea>
+    </view>
+
+    <button class="submit-btn" bindtap="submitForm">提交</button>
+</view>
+

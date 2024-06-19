@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/clock/clock",
+    "pages/clockdetail/clockdetail",
+    "pages/clockin/clockin",
+    "pages/changemy/changemy",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+      "selectedColor": "#31869B",
+      "list": [
+          {
+              "text": "首页",
+              "iconPath": "/pages/static/icons/home.png",
+              "selectedIconPath": "/pages/static/icons/home.png",
+              "pagePath": "pages/index/index"
+          },
+          {
+            "text": "打卡",
+            "iconPath": "/pages/static/icons/clock.png",
+            "selectedIconPath": "/pages/static/icons/clock.png",
+            "pagePath": "pages/clockin/clockin"
+        },
+        {
+            "text": "我的",
+            "iconPath": "/pages/static/icons/my.png",
+            "selectedIconPath": "/pages/static/icons/my.png",
+            "pagePath": "pages/my/my"
+        }
+      ]
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

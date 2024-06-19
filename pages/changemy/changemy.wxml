@@ -1,0 +1,16 @@
+
+<view class="container">
+  <view class="form-item">
+    <text>姓名：</text>
+    <input value="{{ userInfo.name }}" bindinput="inputName" placeholder="请输入姓名"/>
+  </view>
+  <view class="form-item">
+    <text>年龄：</text>
+    <input value="{{ userInfo.age }}" bindinput="inputAge" type="number" placeholder="请输入年龄"/>
+  </view>
+  <view class="form-item">
+    <text>身高：</text>
+    <input value="{{ userInfo.height }}" bindinput="inputHeight" type="number" placeholder="请输入身高"/>
+  </view>
+  <button class="save-btn" bindtap="saveUserInfo">保存</button>
+</view>

@@ -1,0 +1,8 @@
+.items{
+    height: 100rpx;
+    font-size: larger;
+    border-bottom: 1rpx solid gray;
+    margin-top: 10rpx;
+    display: flex;
+    align-items: center;
+}

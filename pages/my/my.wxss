@@ -1,0 +1,22 @@
+
+  
+  .info-item {
+    margin-bottom: 15px; /* 增加间距 */
+  }
+  
+  .info-item text {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 60px; /* 固定标签宽度 */
+    text-align: left; /* 左对齐文本 */
+  }
+  
+  .modify-btn {
+    margin-top: 30px; /* 增加按钮上边距 */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* 调整按钮内边距 */
+    border-radius: 5px;
+  }
+  

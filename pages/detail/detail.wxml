@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view scroll-y  class="container">
+<view class="title">{{html.title}}</view>
+<rich-text nodes="{{html.content}}"></rich-text>
+</scroll-view>
