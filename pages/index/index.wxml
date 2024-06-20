@@ -1,3 +1,8 @@
-<view style="margin-top: 120rpx;">
-    <view wx:for="{{article}}" class="items" data-id="{{item.id}}" bind:tap="godetail">{{item.title}}</view>
-</view>
+<scroll-view scroll-y="true" style="height: 1500rpx;" bindscrolltolower="lower" bindchange="loadingChange">
+  <view class="container">
+    <view wx:for="{{article}}" class="items" data-id="{{item.id}}" bind:tap="godetail">
+      <image src="{{item.img}}" mode="aspectFill" class="item-image" />
+      <text class="title">{{item.title}}</text>
+    </view>
+  </view>
+</scroll-view>

@@ -1,3 +1,6 @@
+<scroll-view scroll-y="true" style="height: 1600rpx;" bindscrolltolower="lower" bindchange="loadingChange">
+    
+
 <view class="container">
   <view wx:for="{{ dataList }}" wx:key="index" class="item" bindtap="navigateToDetail" data-index="{{ index }}">
     <view class="date">{{ item.date }}</view>
@@ -8,3 +11,4 @@
     <view class="status">体重: {{ item.weight }}kg</view>
   </view>
 </view>
+</scroll-view>

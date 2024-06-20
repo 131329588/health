@@ -1,0 +1,49 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f9f9f9;
+$border-color: #e1e1e1;
+
+.container {
+    margin-top: 300rpx;
+  padding: 20rpx;
+  background-color: $background-color;
+
+  .info-item {
+    margin-bottom: 20rpx;
+    font-size: 32rpx;
+    color: $text-color;
+
+    text {
+      margin-right: 10rpx;
+    }
+
+    button {
+      padding: 10rpx 20rpx;
+      font-size: 28rpx;
+      color: white;
+      background-color: $primary-color;
+      border: none;
+      border-radius: 10rpx;
+      
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+
+  .modify-btn {
+    width: 100%;
+    padding: 20rpx;
+    font-size: 32rpx;
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 10rpx;
+    text-align: center;
+    
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+}

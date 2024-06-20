@@ -1,0 +1,36 @@
+$primary-color: #3498db;
+$text-color: #333;
+$background-color: #f9f9f9;
+$border-color: #e1e1e1;
+
+.container {
+  padding: 20rpx;
+  margin-top: 100rpx;
+  background-color: $background-color;
+
+  .item {
+    padding: 20rpx;
+    margin-bottom: 20rpx;
+    background-color: white;
+    border-radius: 10rpx;
+    border: 1px solid $border-color;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .date {
+      font-size: 32rpx;
+      font-weight: bold;
+      color: $primary-color;
+      margin-bottom: 10rpx;
+    }
+
+    .status {
+      font-size: 28rpx;
+      color: $text-color;
+      margin-bottom: 5rpx;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f9f9f9;
+$border-color: #e1e1e1;
+
+.container {
+    margin-top: 300rpx;
+  padding: 20rpx;
+  background-color: $background-color;
+  border-radius: 10rpx;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx;
+    margin-bottom: 20rpx;
+    background-color: white;
+    border-radius: 10rpx;
+    border: 1px solid $border-color;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .label {
+      font-size: 32rpx;
+      font-weight: bold;
+      color: $primary-color;
+    }
+
+    .value {
+      font-size: 32rpx;
+      color: $text-color;
+      text-align: right;
+    }
+  }
+}
